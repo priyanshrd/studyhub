@@ -1,0 +1,13 @@
+[
+  { "topic": "1.1 RPA Basics and Types of Bots", "files": [] },
+  { "topic": "1.2 RPA Methodologies and Ecosystem", "files": [] },
+  { "topic": "2.1 UiPath Interface and Variables", "files": [] },
+  { "topic": "2.2 Control Flow and Data Manipulation", "files": [] },
+  { "topic": "2.3 Recording Techniques in UiPath", "files": [] },
+  { "topic": "3.1 Selectors and Debugging", "files": [] },
+  { "topic": "3.2 Advanced Citrix, Excel and PDF", "files": [] },
+  { "topic": "4.1 Email Automation", "files": [] },
+  { "topic": "4.2 Exception Handling and Orchestrator", "files": [] },
+  { "topic": "5.1 Hyperautomation Concepts", "files": [] },
+  { "topic": "5.2 Use Cases and Trends", "files": [] }
+]

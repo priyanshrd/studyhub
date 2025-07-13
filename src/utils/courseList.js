@@ -15,17 +15,15 @@ const courseList = {
     { code: "EC362IA", title: "SystemVerilog for Design and Verification" },
     { code: "EC363IA", title: "Computer Networks and Protocols" },
     { code: "EC364TA", title: "Digital Signal Processing with ML" },
-    { code: "EC367P", title: "Interdisciplinary Project" },
 
     // Core Electives (Group D)
-    { code: "EC365TD1", title: "Low Power VLSI Design" },
-    { code: "EC365TD2", title: "6G Technology and Beyond" },
-    { code: "EC365TD3", title: "Real-Time Systems" },
+    { code: "EC365TDA", title: "Low Power VLSI Design" },
+    { code: "EC365TDB", title: "6G Technology and Beyond" },
+    { code: "EC365TDF", title: "Real-Time Systems" },
     { code: "EC365TD4", title: "Digital CMOS Design" }
   ],
 
   Institutional: [
-    { code: "XX26TEX", title: "Institutional Elective" },
 
     // Common Electives
     { code: "CS266TED", title: "Robotic Process Automation (RPA)" },

@@ -1,0 +1,15 @@
+[
+  { "topic": "1.1 Introduction to CMOS Technology", "files": [] },
+  { "topic": "1.2 CMOS Inverter: DC Characteristics", "files": [] },
+  { "topic": "1.3 Static and Dynamic Power Consumption", "files": [] },
+  { "topic": "2.1 Combinational Logic Design Using CMOS", "files": [] },
+  { "topic": "2.2 NAND/NOR and Complex Gates", "files": [] },
+  { "topic": "2.3 Pass Transistor Logic and Transmission Gates", "files": [] },
+  { "topic": "3.1 Sequential Logic: Latches and Flip-Flops", "files": [] },
+  { "topic": "3.2 Static and Dynamic Latches", "files": [] },
+  { "topic": "4.1 Layout Design Rules and Stick Diagrams", "files": [] },
+  { "topic": "4.2 Design Rule Checking and LVS", "files": [] },
+  { "topic": "5.1 Timing Analysis and Optimization", "files": [] },
+  { "topic": "5.2 Clocking Strategies and Skew", "files": [] },
+  { "topic": "5.3 Low Power Design and Challenges", "files": [] }
+]
