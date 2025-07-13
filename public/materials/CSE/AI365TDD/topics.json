@@ -1,0 +1,10 @@
+[
+  { "topic": "1.1 Foundations of Generative Models", "files": [] },
+  { "topic": "1.2 Autoencoders & Variants", "files": [] },
+  { "topic": "2.1 Generative Adversarial Networks (GANs)", "files": [] },
+  { "topic": "2.2 GAN Applications & Architectures", "files": [] },
+  { "topic": "3.1 Diffusion Models & Emerging Techniques", "files": [] },
+  { "topic": "3.2 Transformer-based Generative Models", "files": [] },
+  { "topic": "4.1 Ethics & Evaluation of Generative AI", "files": [] },
+  { "topic": "5.1 Case Studies: GPT, DALL·E, MusicGen", "files": [] }
+]

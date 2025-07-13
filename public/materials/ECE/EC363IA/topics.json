@@ -1,0 +1,12 @@
+[
+  { "topic": "1.1 Network Fundamentals & Architecture", "files": [] },
+  { "topic": "1.2 Delay, Loss & Protocol Layers", "files": [] },
+  { "topic": "2.1 Data Link Layer & Ethernet", "files": [] },
+  { "topic": "2.2 LAN Devices & Virtual LANs", "files": [] },
+  { "topic": "3.1 IPv4 & IPv6 Addressing", "files": [] },
+  { "topic": "3.2 Routing Protocols & IP Security", "files": [] },
+  { "topic": "4.1 Transport Layer – TCP, UDP", "files": [] },
+  { "topic": "4.2 Congestion Control & Resource Allocation", "files": [] },
+  { "topic": "5.1 Multimedia Networking & Streaming", "files": [] },
+  { "topic": "5.2 QoS & Case Studies (Netflix, YouTube)", "files": [] }
+]

@@ -8,7 +8,9 @@ export default function Home() {
       <div className="departments">
         <Link to="/CSE" className="button">CSE</Link>
         <Link to="/ECE" className="button">ECE</Link>
+        <Link to="/Institutional" className="button">Institutional Electives</Link>
       </div>
+
     </div>
   );
 }

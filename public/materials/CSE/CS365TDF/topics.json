@@ -1,0 +1,11 @@
+[
+  { "topic": "1.1 Introduction to Cryptography & Ciphers", "files": [] },
+  { "topic": "1.2 Classical and Modern Techniques", "files": [] },
+  { "topic": "2.1 Symmetric Key Cryptography (DES, AES)", "files": [] },
+  { "topic": "2.2 Asymmetric Key Cryptography (RSA, ECC)", "files": [] },
+  { "topic": "3.1 Hashing Algorithms & Integrity", "files": [] },
+  { "topic": "3.2 Digital Signatures & Certificates", "files": [] },
+  { "topic": "4.1 Network Security Protocols (SSL, IPSec)", "files": [] },
+  { "topic": "4.2 VPNs, Firewalls & IDS", "files": [] },
+  { "topic": "5.1 Web Security & Application Layer Attacks", "files": [] }
+]

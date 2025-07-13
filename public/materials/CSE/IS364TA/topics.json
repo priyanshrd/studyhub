@@ -1,0 +1,98 @@
+[
+  {
+    "topic": "1.1 Introduction to Software Engineering, Software Development Life Cycle",
+    "files": []
+  },
+  {
+    "topic": "1.2 Software Engineering Ethics and Case Studies",
+    "files": []
+  },
+  {
+    "topic": "1.3 Software Processes: Models, Process Activities, Coping with Change, Process Improvement",
+    "files": []
+  },
+  {
+    "topic": "1.4 Requirements Engineering – Functional & Non-Functional Requirements",
+    "files": []
+  },
+  {
+    "topic": "1.5 Requirements Elicitation, Specification, Validation and Change",
+    "files": []
+  },
+  {
+    "topic": "2.1 System Modeling: Context, Interaction, Structural, Behavioral Models",
+    "files": []
+  },
+  {
+    "topic": "2.2 Model-Driven Architecture, Architectural Patterns, Architectural Styles",
+    "files": []
+  },
+  {
+    "topic": "2.3 Object-Oriented Design using UML",
+    "files": []
+  },
+  {
+    "topic": "2.4 Design Patterns, Implementation Issues",
+    "files": []
+  },
+  {
+    "topic": "2.5 Open-Source Development",
+    "files": []
+  },
+  {
+    "topic": "3.1 Software Testing: Development Testing and Test-Driven Development",
+    "files": []
+  },
+  {
+    "topic": "3.2 Unit Testing, Integration Testing, System Testing",
+    "files": []
+  },
+  {
+    "topic": "3.3 Evolutionary Processes, Legacy System Evolution",
+    "files": []
+  },
+  {
+    "topic": "3.4 Software Maintenance: Corrective, Adaptive, Perfective, Preventive",
+    "files": []
+  },
+  {
+    "topic": "3.5 Component-Based Software Engineering and Reuse",
+    "files": []
+  },
+  {
+    "topic": "4.1 Project Management: Risk, Managing People, Software Planning",
+    "files": []
+  },
+  {
+    "topic": "4.2 Project Scheduling, Agile Planning, Estimation Techniques",
+    "files": []
+  },
+  {
+    "topic": "4.3 COCOMO Cost Modeling",
+    "files": []
+  },
+  {
+    "topic": "5.1 Agile Methods: Agile Introduction, Agile Manifesto, Agile Practices",
+    "files": []
+  },
+  {
+    "topic": "5.2 Agile Development Techniques",
+    "files": []
+  },
+  {
+    "topic": "5.3 Agile Project Management – Scrum, Kanban",
+    "files": []
+  },
+  {
+    "topic": "5.4 Improving Processes using Agile",
+    "files": []
+  },
+  {
+    "topic": "5.5 Understanding Resistance to Change, Coaching for Agile",
+    "files": []
+  },
+  {
+    "topic": "5.6 Principles of Coaching & Change",
+    "files": []
+  }
+]

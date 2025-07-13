@@ -1,0 +1,13 @@
+
+[
+  { "topic": "1.1 Signal Processing Fundamentals", "files": [] },
+  { "topic": "1.2 IIR, FIR & Adaptive Filters", "files": [] },
+  { "topic": "2.1 Probability & Data Types in ML", "files": [] },
+  { "topic": "2.2 Model Selection & Optimization", "files": [] },
+  { "topic": "3.1 Linear & Logistic Regression", "files": [] },
+  { "topic": "3.2 Classification & SVMs", "files": [] },
+  { "topic": "4.1 Decision Trees & Random Forests", "files": [] },
+  { "topic": "4.2 Clustering & PCA", "files": [] },
+  { "topic": "5.1 CNN Architectures (LeNet, AlexNet)", "files": [] },
+  { "topic": "5.2 RNNs, LSTMs & GANs", "files": [] }
+]
