@@ -1,0 +1,102 @@
+[
+  {
+    "topic": "1.1 Language Processors & Structure of Compiler",
+    "files": ["Unit 1 - Introduction.pdf"]
+  },
+  {
+    "topic": "1.2 Evolution of Programming Languages",
+    "files": ["Unit 1 - Introduction.pdf"]
+  },
+  {
+    "topic": "1.3 Lexical Analysis – Lexical Analyzer, Input Buffering",
+    "files": []
+  },
+  {
+    "topic": "1.4 Token Specification and Recognition",
+    "files": []
+  },
+  {
+    "topic": "2.1 Syntax Analysis – Top-down Parsing",
+    "files": []
+  },
+  {
+    "topic": "2.2 Syntax Analysis – Bottom-up Parsing",
+    "files": []
+  },
+  {
+    "topic": "2.3 Introduction to LR Parsing",
+    "files": []
+  },
+  {
+    "topic": "2.4 Simple LR and Most Powerful LR Parsers",
+    "files": []
+  },
+  {
+    "topic": "2.5 Ambiguous Grammars",
+    "files": []
+  },
+  {
+    "topic": "3.1 Syntax-Directed Definitions (SDD)",
+    "files": []
+  },
+  {
+    "topic": "3.2 Evaluation Orders for SDD",
+    "files": []
+  },
+  {
+    "topic": "3.3 Syntax Directed Translation – Applications",
+    "files": []
+  },
+  {
+    "topic": "3.4 Storage Organization",
+    "files": []
+  },
+  {
+    "topic": "3.5 Stack Allocation of Space",
+    "files": []
+  },
+  {
+    "topic": "3.6 Nonlocal Data Access & Heap Management",
+    "files": []
+  },
+  {
+    "topic": "4.1 Syntax Trees & Three Address Code",
+    "files": []
+  },
+  {
+    "topic": "4.2 Type Checking & Type Equivalence",
+    "files": []
+  },
+  {
+    "topic": "4.3 Declarations & Control Flow Translation",
+    "files": []
+  },
+  {
+    "topic": "4.4 Backpatching & Intermediate Code for Procedures",
+    "files": []
+  },
+  {
+    "topic": "5.1 Code Generation Issues",
+    "files": []
+  },
+  {
+    "topic": "5.2 Basic Blocks and Flow Graphs",
+    "files": []
+  },
+  {
+    "topic": "5.3 Simple Code Generator",
+    "files": []
+  },
+  {
+    "topic": "5.4 Peephole Optimization",
+    "files": []
+  },
+  {
+    "topic": "5.5 Machine Independent Optimizations",
+    "files": []
+  },
+  {
+    "topic": "5.6 Sources of Optimization – Data Flow Analysis",
+    "files": []
+  }
+]
