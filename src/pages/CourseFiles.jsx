@@ -42,19 +42,40 @@ export default function CourseFiles() {
   };
 
   const renderFileLink = (fileName) => {
-    const url = `/materials/${department}/${courseCode}/${fileName}`;
-    const ext = fileName.split('.').pop().toLowerCase();
+  const url = `/materials/${department}/${courseCode}/${fileName}`;
+  const ext = fileName.split('.').pop().toLowerCase();
 
+  if (ext === 'pdf') {
     return (
       <li key={fileName}>
-        {['pdf', 'ppt', 'pptx', 'doc', 'docx'].includes(ext) ? (
-          <a href={url} target="_blank" rel="noreferrer">{fileName}</a>
-        ) : (
-          <a href={url} download>{fileName}</a>
-        )}
+        <a href={url} target="_blank" rel="noreferrer">
+          {fileName}
+        </a>
       </li>
     );
-  };
+  }
+
+  if (['ppt', 'pptx', 'doc', 'docx', 'xls', 'xlsx'].includes(ext)) {
+    const officeViewerURL = `https://view.officeapps.live.com/op/embed.aspx?src=${window.location.origin}${url}`;
+    return (
+      <li key={fileName}>
+        <a href={officeViewerURL} target="_blank" rel="noreferrer">
+          {fileName} (Preview)
+        </a>
+      </li>
+    );
+  }
+
+  // fallback for images or others
+  return (
+    <li key={fileName}>
+      <a href={url} target="_blank" rel="noreferrer">
+        {fileName}
+      </a>
+    </li>
+  );
+};
+
 
   return (
     <div className="container">
