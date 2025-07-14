@@ -43,6 +43,15 @@ export default function CourseFiles() {
         </li>
       );
     }
+    if (ext === 'rtf') {
+      return (
+        <li key={fileName}>
+          <a href={url} target="_blank" rel="noreferrer">
+            {fileName} (Download RTF)
+          </a>
+        </li>
+      );
+}
 
     if (['ppt', 'pptx', 'doc', 'docx', 'xls', 'xlsx'].includes(ext)) {
       const officeViewerURL = `https://view.officeapps.live.com/op/embed.aspx?src=${window.location.origin}${url}`;
@@ -54,6 +63,8 @@ export default function CourseFiles() {
         </li>
       );
     }
+
+
 
     return (
       <li key={fileName}>
