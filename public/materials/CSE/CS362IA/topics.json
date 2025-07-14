@@ -1,126 +1,126 @@
 [
   {
     "topic": "1.1 Introduction to TCP, UDP, SCTP",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.2 TCP Connection Establishment and Termination",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.3 TIME_WAIT State and TCP Port Numbers",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.4 Concurrent Servers and Buffer Size Limitations",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.5 Socket Address Structure and Value Arguments",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.6 Byte Ordering, Tuning, and Byte Manipulation Functions",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "1.7 inet_aton, inet_addr, inet_ntoa, inet_ntop Functions",
-    "files": []
+    "files": ["NPS UNIT1.pdf"]
   },
   {
     "topic": "2.1 TCP Client and Server Concepts",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "2.2 Connect, Bind, Listen, Accept, Fork, Exec Functions",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "2.3 Concurrent Server Model and Close Function",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "2.4 getSockName and getPeerName Functions",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "2.5 TCP Echo Server and Client Examples",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "2.6 str_echo, TCP Echo Client - main + str_echo, Normal Server, Termination",
-    "files": []
+    "files": ["NPS UNIT2.pdf"]
   },
   {
     "topic": "3.1 UDP Client/Server and Name Server Basics",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.2 Socket Options Intro, getsockopt, setsockopt",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.3 recvfrom, sendto Functions",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.4 UDP Echo Server & Client, Lost Datagrams",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.5 Gethostbyname, Gethostbyaddr Functions",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.6 Getservbyname, Getservbyport, gai_strerror, freeaddrinfo",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.7 getaddrinfo and getnameinfo Functions",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "3.8 daemonizing Function, Host_serv Function",
-    "files": []
+    "files": ["NPS UNIT3.pdf"]
   },
   {
     "topic": "4.1 Stream and Block Ciphers, Feistel Cipher Structure",
-    "files": []
+    "files": ["NPS Unit 4 .pdf"]
   },
   {
     "topic": "4.2 Encryption Standards: DES and AES",
-    "files": []
+    "files": ["NPS Unit 4 .pdf"]
   },
   {
     "topic": "4.3 Public-Key Cryptosystems: Principles & Applications",
-    "files": []
+    "files": ["NPS Unit 4 .pdf"]
   },
   {
     "topic": "4.4 RSA Algorithm, Key Generation, Security",
-    "files": []
+    "files": ["NPS Unit 4 .pdf"]
   },
   {
     "topic": "4.5 Computational Aspects, Diffie-Hellman Key Exchange",
-    "files": []
+    "files": ["NPS Unit 4 .pdf"]
   },
   {
     "topic": "5.1 Web Security Considerations",
-    "files": []
+    "files": ["NPS Unit 5 .pdf"]
   },
   {
     "topic": "5.2 Secure Socket Layer (SSL)",
-    "files": []
+    "files": ["NPS Unit 5 .pdf"]
   },
   {
     "topic": "5.3 Transport Layer Security (TLS), HTTPS",
-    "files": []
+    "files": ["NPS Unit 5 .pdf"]
   },
   {
     "topic": "5.4 Wireless Network Security: IEEE 802.11",
-    "files": []
+    "files": ["NPS Unit 5 .pdf"]
   },
   {
     "topic": "5.5 WLAN Overview, Services, Phases of Operation",
-    "files": []
+    "files": ["NPS Unit 5 .pdf"]
   }
 ]
