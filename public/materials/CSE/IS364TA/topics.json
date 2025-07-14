@@ -1,47 +1,47 @@
 [
   {
     "topic": "1.1 Introduction to Software Engineering, Software Development Life Cycle",
-    "files": []
+    "files": ["Unit1_1.pptx"]
   },
   {
     "topic": "1.2 Software Engineering Ethics and Case Studies",
-    "files": []
+    "files": ["Unit1_1.pptx"]
   },
   {
     "topic": "1.3 Software Processes: Models, Process Activities, Coping with Change, Process Improvement",
-    "files": []
+    "files": ["Unit1_2.pptx"]
   },
   {
     "topic": "1.4 Requirements Engineering – Functional & Non-Functional Requirements",
-    "files": []
+    "files": ["Unit1_3.pptx"]
   },
   {
     "topic": "1.5 Requirements Elicitation, Specification, Validation and Change",
-    "files": []
+    "files": ["Unit1_3.pptx"]
   },
   {
     "topic": "2.1 System Modeling: Context, Interaction, Structural, Behavioral Models",
-    "files": []
+    "files": ["Unit2_SystemModelling_1.pptx"]
   },
   {
     "topic": "2.2 Model-Driven Architecture, Architectural Patterns, Architectural Styles",
-    "files": []
+    "files": ["Unit2_SystemModelling_1.pptx", "Unit2_ArchitecturalDesign_2.pptx"]
   },
   {
     "topic": "2.3 Object-Oriented Design using UML",
-    "files": []
+    "files": ["Unit2_Implementation_3.pptx"]
   },
   {
     "topic": "2.4 Design Patterns, Implementation Issues",
-    "files": []
+    "files": ["Unit2_Implementation_3.pptx"]
   },
   {
     "topic": "2.5 Open-Source Development",
-    "files": []
+    "files": ["Unit2_Implementation_3.pptx"]
   },
   {
     "topic": "3.1 Software Testing: Development Testing and Test-Driven Development",
-    "files": []
+    "files": ["Unit 3 P1.pdf"]
   },
   {
     "topic": "3.2 Unit Testing, Integration Testing, System Testing",
@@ -49,50 +49,50 @@
   },
   {
     "topic": "3.3 Evolutionary Processes, Legacy System Evolution",
-    "files": []
+    "files": ["Unit3_Evolution_2.pptx"]
   },
   {
     "topic": "3.4 Software Maintenance: Corrective, Adaptive, Perfective, Preventive",
-    "files": []
+    "files": ["Unit3_Evolution_2.pptx"]
   },
   {
     "topic": "3.5 Component-Based Software Engineering and Reuse",
-    "files": []
+    "files": ["Unit3_CBSE_3.pptx"]
   },
   {
     "topic": "4.1 Project Management: Risk, Managing People, Software Planning",
-    "files": []
+    "files": ["Unit4_ProjectManagement_1.pptx"]
   },
   {
     "topic": "4.2 Project Scheduling, Agile Planning, Estimation Techniques",
-    "files": []
+    "files": ["Unit4_ProjectPlanning_2.pptx"]
   },
   {
     "topic": "4.3 COCOMO Cost Modeling",
-    "files": []
+    "files": ["Unit4_ProjectPlanning_2.pptx"]
   },
   {
     "topic": "5.1 Agile Methods: Agile Introduction, Agile Manifesto, Agile Practices",
-    "files": []
+    "files": ["Unit5_AgileSoftwareDev_1.pptx"]
   },
   {
     "topic": "5.2 Agile Development Techniques",
-    "files": []
+    "files": ["Unit5_AgileSoftwareDev_1.pptx"]
   },
   {
     "topic": "5.3 Agile Project Management – Scrum, Kanban",
-    "files": []
+    "files": ["2. Unit5_KanbanFlw&ConstlyImprv_2.pdf"]
   },
   {
     "topic": "5.4 Improving Processes using Agile",
-    "files": []
+    "files": ["2. Unit5_KanbanFlw&ConstlyImprv_2.pdf"]
   },
   {
     "topic": "5.5 Understanding Resistance to Change, Coaching for Agile",
-    "files": []
+    "files": ["3. Unit5_SE_AgileCoach_3.pdf"]
   },
   {
     "topic": "5.6 Principles of Coaching & Change",
-    "files": []
+    "files": ["3. Unit5_SE_AgileCoach_3.pdf"]
   }
 ]
