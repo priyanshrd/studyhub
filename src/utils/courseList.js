@@ -28,7 +28,8 @@ const courseList = {
     // Common Electives
     { code: "CS266TED", title: "Robotic Process Automation (RPA)" },
     { code: "EC266TEH", title: "Human Machine Interface (HMI)" },
-    { code: "MA266TEU", title: "Mathematical Modelling" }
+    { code: "MA266TEU", title: "Mathematical Modelling" },
+    { code: "CS365TDZ", title: "Data Structures and Algorithms" },
   ]
 };
 

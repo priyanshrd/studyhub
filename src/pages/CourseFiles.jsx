@@ -1,23 +1,14 @@
+
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './CourseFiles.css';
 
 export default function CourseFiles() {
   const { department, courseCode } = useParams();
-  const [fileList, setFileList] = useState([]);
   const [topics, setTopics] = useState([]);
   const [checked, setChecked] = useState({});
 
   useEffect(() => {
-    // List all files from public/materials/{department}/{courseCode}
-    const folderPath = `/materials/${department}/${courseCode}`;
-    fetch(folderPath)
-      .then(() => {
-        // Client can't list local folder directly
-        // Use checklist to show known files
-      })
-      .catch((err) => console.error("Fetch error:", err));
-
-    // Load topics JSON
     const topicJsonPath = `/materials/${department}/${courseCode}/topics.json`;
     fetch(topicJsonPath)
       .then(res => {
@@ -42,57 +33,51 @@ export default function CourseFiles() {
   };
 
   const renderFileLink = (fileName) => {
-  const url = `/materials/${department}/${courseCode}/${fileName}`;
-  const ext = fileName.split('.').pop().toLowerCase();
+    const url = `/materials/${department}/${courseCode}/${fileName}`;
+    const ext = fileName.split('.').pop().toLowerCase();
 
-  if (ext === 'pdf') {
+    if (ext === 'pdf') {
+      return (
+        <li key={fileName}>
+          <a href={url} target="_blank" rel="noreferrer">{fileName}</a>
+        </li>
+      );
+    }
+
+    if (['ppt', 'pptx', 'doc', 'docx', 'xls', 'xlsx'].includes(ext)) {
+      const officeViewerURL = `https://view.officeapps.live.com/op/embed.aspx?src=${window.location.origin}${url}`;
+      return (
+        <li key={fileName}>
+          <a href={officeViewerURL} target="_blank" rel="noreferrer">
+            {fileName} (Preview)
+          </a>
+        </li>
+      );
+    }
+
     return (
       <li key={fileName}>
-        <a href={url} target="_blank" rel="noreferrer">
-          {fileName}
-        </a>
+        <a href={url} target="_blank" rel="noreferrer">{fileName}</a>
       </li>
     );
-  }
-
-  if (['ppt', 'pptx', 'doc', 'docx', 'xls', 'xlsx'].includes(ext)) {
-    const officeViewerURL = `https://view.officeapps.live.com/op/embed.aspx?src=${window.location.origin}${url}`;
-    return (
-      <li key={fileName}>
-        <a href={officeViewerURL} target="_blank" rel="noreferrer">
-          {fileName} (Preview)
-        </a>
-      </li>
-    );
-  }
-
-  // fallback for images or others
-  return (
-    <li key={fileName}>
-      <a href={url} target="_blank" rel="noreferrer">
-        {fileName}
-      </a>
-    </li>
-  );
-};
-
+  };
 
   return (
-    <div className="container">
+    <div className="course-container">
       <h2>{courseCode} Topics</h2>
       {topics.length === 0 ? (
-        <p>No checklist found.</p>
+        <p className="no-checklist">No checklist found.</p>
       ) : (
-        <ul className="checklist">
+        <ul className="topic-checklist">
           {topics.map((item, idx) => (
-            <li key={idx} className="checklist-item">
-              <label>
+            <li key={idx} className={`checklist-item ${checked[item.topic] ? 'checked' : ''}`}>
+              <label className="checkbox-label">
                 <input
                   type="checkbox"
                   checked={!!checked[item.topic]}
                   onChange={() => toggleCheck(item.topic)}
                 />
-                <strong>{item.topic}</strong>
+                <span>{item.topic}</span>
               </label>
               {item.files.length > 0 && (
                 <ul className="file-links">
