@@ -1,13 +1,8 @@
 
 [
-  { "topic": "1.1 Signal Processing Fundamentals", "files": [] },
-  { "topic": "1.2 IIR, FIR & Adaptive Filters", "files": [] },
-  { "topic": "2.1 Probability & Data Types in ML", "files": [] },
-  { "topic": "2.2 Model Selection & Optimization", "files": [] },
-  { "topic": "3.1 Linear & Logistic Regression", "files": [] },
-  { "topic": "3.2 Classification & SVMs", "files": [] },
-  { "topic": "4.1 Decision Trees & Random Forests", "files": [] },
-  { "topic": "4.2 Clustering & PCA", "files": [] },
-  { "topic": "5.1 CNN Architectures (LeNet, AlexNet)", "files": [] },
-  { "topic": "5.2 RNNs, LSTMs & GANs", "files": [] }
+  { "topic": "1. Signal Processing Fundamentals, IIR, FIR & Adaptive Filters", "files": ["Butterworth filter and digital IIR filter .pptx","Copy of Copy of Chebyshev filtern.pptx","Copy of Tutorial unit1.docx","IIR.pptx","numerical on chev.pdf","solve numericals on IIR filter.pdf"] },
+  { "topic": "2. Probability & Data Types in ML, Model Selection & Optimization", "files": ["FIR Numerical on windows_muk.pdf","Unit-2-20250715T200551Z-1-001/Unit-2/Frequency Sampling DSP Example Problems.pdf","Ganesh rao_numericals on windowing tech.pdf","Symmetry -unsymmetry FIR filter-1-5.pdf","unit 2 ppt.pptx","windowing tech for FIR .pdf"] },
+  { "topic": "3. Linear & Logistic Regression, Classification & SVMs", "files": ["basic of multirate.pptx","Bias_and_variance_model_basis linear model.pptx","Copy of Copy of K Nearest Neighbour.pptx","Copy of Logistic regression 3.pptx","Copy of Stochastic Gradient Descent_1 .pptx","Copy of SVM.pptx","Copy of Unit 3_MLE_2021.pdf","Multiple  Linear regression+hypothesis _RK.pptx","simple Linear regression _1_RK.pptx"] },
+  { "topic": "4. Decision Trees & Random Forests, Clustering & PCA", "files": ["Copy of clustering.pptx","Copy of Copy of  PCA.pptx","Copy of Copy of Topics and Text books.docx","Copy of Decision Tree based model.pptx","Copy of Evaluating performance of a classification model.pptx","Copy of kmeans 2022.pdf","Copy of Naiive Bayes classification_2022.pdf","Copy of  PCA.pptx","Copy of Random Forest_.pptx"] },
+  { "topic": "5. CNN Architectures (LeNet, AlexNet), RNNs, LSTMs & GANs", "files": ["Copy of CNN _Layers.pptx","Copy of Object detection using deep learning_.pptx","Copy of LSTM and GAN.pptx"] }
 ]
